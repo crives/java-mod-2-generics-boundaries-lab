@@ -29,6 +29,11 @@ public class Main {
         System.out.println(averageList(intList)); // 3.0
 
         List<Double> doubleList = List.of(1.0, 2.0, 3.0, 4.0, 5.0);
-        System.out.println(averageList(doubleList)); // 3.0       
+        System.out.println(averageList(doubleList)); // 3.0 
+        
+        // Below tested that code does not compile with objects that are not numbers:
+        
+        // List<String> stringList = List.of("1", "2", "3", "4", "5");
+        // System.out.println(averageList(stringList));
     }
 }
